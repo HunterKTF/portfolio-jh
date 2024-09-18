@@ -4,6 +4,8 @@ import "./globals.css";
 
 // Components
 import Header from "@/components/header";
+import PageTransition from "@/components/pageTransition";
+import StairTransition from "@/components/stairTransition";
 
 const roboto = Roboto_Condensed({
   subsets: ["latin"],
@@ -25,7 +27,10 @@ export default function RootLayout({
     <html lang="en">
       <body className={roboto.variable}>
         <Header />
-        {children}
+        <StairTransition />
+        <PageTransition>
+          {children}
+        </PageTransition>
       </body>
     </html>
   );

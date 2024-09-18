@@ -39,8 +39,12 @@ const config: Config = {
 			},
 			colors: {
 				// TODO: Add colors here
-				background: 'var(--background)',
-				foreground: 'var(--foreground)'
+				primary: '#F59E0B',
+				secondary: '#818CF8',
+				background: '#1c1917',
+				foreground: '#292524',
+				text_primary: '#FFFFFF',
+				text_secondary: '#A8A29E',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
