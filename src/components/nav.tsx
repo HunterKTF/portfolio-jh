@@ -46,7 +46,7 @@ export default function Nav() {
 
             {/* Contact Me button */}
             <Link href={"/contact"}>
-                <button className="px-[30px] py-[5px] bg-primary text-background rounded-full text-md hover:bg-secondary" type="button">
+                <button className="px-[30px] py-[5px] bg-primary text-background rounded-full text-md hover:bg-secondary hover:-translate-y-2 transition" type="button">
                     Lets Talk
                 </button>
             </Link>
