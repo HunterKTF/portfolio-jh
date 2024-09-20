@@ -6,8 +6,9 @@ import Image from "next/image";
 
 export default function Profile() {
     return (
-        <div className="w-[298px] h-[298px] xl:w-[478px] xl:h-[478px] flex justify-center items-center relative">
-            <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { delay: 1.1, duration: 0.2, ease: 'easeIn' } }}>
+        <motion.div className="w-[298px] h-[298px] xl:w-[478px] xl:h-[478px] flex justify-center items-center relative"
+            initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { delay: 1.2, duration: 0.2, ease: 'easeIn' } }}>
+            <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { delay: 1.2, duration: 0.2, ease: 'easeIn' } }}>
                 <div className="w-[290px] h-[290px] xl:w-[470px] xl:h-[470px] mix-blend-light absolute top-0">
                     <Image className="rounded-full xl:p-10 p-6 object-contain"
                         src="/img/IMG_9036.JPG"
@@ -40,7 +41,7 @@ export default function Profile() {
                         repeatType: "reverse",
                     }} />
             </motion.svg>
-        </div>
+        </motion.div>
 
 
     )
