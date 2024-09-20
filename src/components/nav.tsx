@@ -26,9 +26,9 @@ export default function Nav() {
     const pathname = usePathname();
 
     return (
-        <nav className="flex flex-row justify-center items-center gap-x-10">
+        <nav className="flex flex-row justify-center items-center gap-10">
             {/* Main navigation menu */}
-            <div className="flex gap-x-10">
+            <div className="flex gap-12 text-md">
                 {links.map((link, index) => {
                     return (
                         <Link
