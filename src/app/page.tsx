@@ -2,6 +2,7 @@ import IconLinks from "@/components/home/iconLinks";
 import Titles from "@/components/home/titles";
 import Descriptions from "@/components/home/descriptions";
 import Profile from "@/components/home/profile";
+import Stats from "@/components/home/stats";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <Stats />
     </section>
   );
 }
